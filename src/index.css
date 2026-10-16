@@ -32,3 +32,42 @@ h2 { margin-top: 0; }
 }
 .account-button:hover { border-color: #1e3a8a; background: #eff6ff; }
 .account-button small { color: #6b7280; }
+
+.btn {
+  display: inline-block; padding: 0.5rem 1rem; font: inherit; text-decoration: none;
+  background: #1e3a8a; color: #fff; border: 1px solid #1e3a8a; border-radius: 6px; cursor: pointer;
+}
+.btn:hover:not(:disabled) { background: #1e40af; }
+.btn:disabled { background: #9ca3af; border-color: #9ca3af; cursor: not-allowed; }
+.btn-secondary { background: #fff; color: #1e3a8a; }
+.btn-secondary:hover { background: #eff6ff !important; }
+
+.toolbar { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+.field { display: flex; flex-direction: column; gap: 0.25rem; flex: 1; min-width: 200px; }
+.field label { font-weight: 600; font-size: 0.9rem; }
+.field input, .field select, .field textarea {
+  padding: 0.5rem; font: inherit; border: 1px solid #d1d5db; border-radius: 6px; background: #fff;
+}
+.result-count { color: #6b7280; font-size: 0.9rem; margin: 0.5rem 0 1rem; }
+
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.card { background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1rem; }
+.card-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 0.5rem; }
+.card-head h2, .card-head h3 { margin: 0; font-size: 1.05rem; }
+.card-category { color: #1e3a8a; font-size: 0.85rem; font-weight: 600; margin: 0.25rem 0; }
+.card-location { color: #6b7280; font-size: 0.9rem; }
+.card-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.75rem; }
+
+.badge { padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.8rem; font-weight: 600; white-space: nowrap; }
+.badge-ok { background: #dcfce7; color: #166534; }
+.badge-off { background: #fee2e2; color: #991b1b; }
+
+.message { padding: 0.75rem 1rem; border-radius: 6px; margin: 0.75rem 0; }
+.message-info { background: #e0f2fe; color: #075985; }
+.message-success { background: #dcfce7; color: #166534; }
+.message-error { background: #fee2e2; color: #991b1b; }
+
+.detail { max-width: 640px; }
+.detail-list { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1rem; margin: 1rem 0; }
+.detail-list dt { font-weight: 600; }
+.detail-list dd { margin: 0; }

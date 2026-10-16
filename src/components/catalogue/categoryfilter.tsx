@@ -1,1 +1,0 @@
-import type { Categorie } from '../../types/models'
