@@ -1,0 +1,1 @@
+import type { Materiel, User } from '../types/models'

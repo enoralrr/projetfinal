@@ -1,0 +1,8 @@
+import { useMemo, useState } from 'react'
+import { useAuth } from '../../src/hooks/useAuth'
+import { useCatalog } from '../../src/hooks/useCatalog'
+import { useReservations } from '../../src/hooks/useReservations'
+import SearchBar from '../components/catalogue/SearchBar'
+import CategoryFilter from '../components/catalogue/CategoryFilter'
+import MaterielList from '../components/catalogue/MaterielList'
+import Message from '../components/common/Message'
