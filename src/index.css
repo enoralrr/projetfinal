@@ -78,3 +78,23 @@ h2 { margin-top: 0; }
 .reservation-item p { margin: 0.1rem 0; }
 .btn-danger { background: #b91c1c; border-color: #b91c1c; }
 .btn-danger:hover:not(:disabled) { background: #991b1b; }
+
+.page-head { display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; margin-bottom: 0.5rem; }
+
+.form { display: grid; gap: 1rem; max-width: 560px; background: #fff; border: 1px solid #e5e7eb; border-radius: 10px; padding: 1.25rem; }
+.form .message { margin: 0; }
+.field-error { color: #b91c1c; font-size: 0.85rem; margin: 0; }
+.field input[aria-invalid='true'],
+.field select[aria-invalid='true'],
+.field textarea[aria-invalid='true'] { border-color: #b91c1c; }
+.form-actions { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.table-wrap { overflow-x: auto; }
+.table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e5e7eb; }
+.table th, .table td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid #e5e7eb; vertical-align: middle; }
+.table th { background: #f9fafb; font-size: 0.85rem; }
+.table .card-actions { margin-top: 0; }
+
+.dialog-backdrop { position: fixed; inset: 0; background: rgba(0, 0, 0, 0.45); display: flex; align-items: center; justify-content: center; padding: 1rem; z-index: 50; }
+.dialog { background: #fff; border-radius: 10px; padding: 1.25rem; max-width: 440px; width: 100%; }
+.dialog h3 { margin-top: 0; }
