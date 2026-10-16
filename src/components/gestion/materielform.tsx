@@ -1,3 +1,5 @@
 import { useState, type FormEvent } from 'react'
-import type { MaterielFormValues } from '../../types/models'
-import { validateMateriel } from '../../../src/utils/validation'
+import type { Equipement, EquipementFormValues } from '../../types/models'
+import { CATEGORIES } from '../../data/donnees-initiales'
+import { validateEquipement, hasErrors } from '../../utils/validation'
+import type { EquipementFormErrors } from '../../utils/validation'

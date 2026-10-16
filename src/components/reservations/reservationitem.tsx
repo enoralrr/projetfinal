@@ -1,2 +1,2 @@
 import { Link } from 'react-router-dom'
-import type { Materiel, Reservation } from '../../types/models'
+import type { Equipement, Reservation } from '../../types/models'
