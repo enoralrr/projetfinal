@@ -1,6 +1,0 @@
-import { Link, useParams } from 'react-router-dom'
-import { useAuth } from '../hooks/useAuth'
-import { useCatalog } from '../hooks/useCatalog'
-import { useReservations } from '../hooks/useReservations'
-import AvailabilityBadge from '../components/catalogue/AvailabilityBadge'
-import Message from '../components/common/Message'

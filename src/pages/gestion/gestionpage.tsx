@@ -1,7 +1,0 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { useCatalog } from '../../hooks/useCatalog'
-import { useReservations } from '../../hooks/useReservations'
-import ConfirmDialog from '../../components/gestion/ConfirmDialog'
-import AvailabilityBadge from '../../components/catalogue/AvailabilityBadge'
-import Message from '../../components/common/Message'

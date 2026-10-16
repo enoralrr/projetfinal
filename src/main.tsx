@@ -6,3 +6,17 @@ import { AuthProvider } from './context/AuthContext'
 import { CatalogProvider } from './context/CatalogContext'
 import { ReservationProvider } from './context/ReservationContext'
 import './index.css'
+
+createRoot(document.getElementById('root')!).render(
+  <StrictMode>
+    <BrowserRouter>
+      <AuthProvider>
+        <CatalogProvider>
+          <ReservationProvider>
+            <App />
+          </ReservationProvider>
+        </CatalogProvider>
+      </AuthProvider>
+    </BrowserRouter>
+  </StrictMode>,
+)
